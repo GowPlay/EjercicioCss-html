@@ -1,0 +1,123 @@
+body{
+    font-size: 28px;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    list-style-type: none;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+.active{
+    background-color: #5ba35e;
+}
+.items{
+    float: left;
+}
+.items a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.items a:hover{
+    background-color: #111;
+}
+
+/* Imagenes */
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.galeria{
+    margin: 20px;
+    border: 1px solid rgb(124, 168, 172);
+    float: left;
+    width: 30%;
+}
+
+.galeria:hover{
+    border: 1px solid #5ba35e;
+}
+
+.galeria img{
+    width: 100%;
+    height: 300px;
+}
+
+.desc{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Formulario  */
+.col{
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+input[type=text],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(132, 216, 231);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: #2c1fe9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 25px;
+}
+
+input[type=submit]:hover{
+    background-color: #5d54d1;
+}
+
+/* opcional */
+/* textarea{
+    height: 200px;
+    padding: 12px;
+    border: 1px solid rgb(132, 216, 231);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+
